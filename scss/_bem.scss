@@ -1,0 +1,37 @@
+.caja{color: royalblue;}
+
+.caja__titulo{color: red;
+margin:10px;}
+
+.imput__color{
+    font-size: 10px;
+    color: purple;
+    border-color: purple;}
+    
+.fotito{display: flex;}
+
+.fotito__flex{ padding: auto;
+margin-top: 5%; 
+margin-left: 5%;
+border-color: red;
+border-style: outset;
+border-radius: 10px;
+background-color: lightgray;
+}
+
+
+
+.fotito__flex--2{ @extend .fotito__flex;
+    border-color: blue; }
+
+.fotito__flex--3{ @extend .fotito__flex; border-color: blueviolet;}
+
+.fotito__flex--4{ @extend .fotito__flex; border-color: cadetblue;}
+
+.fotito__flex--5{ @extend .fotito__flex; border-color:orange;}
+
+.fotito__flex--6{ @extend .fotito__flex; border-color: plum;}
+
+.fotito__flex--7{ @extend .fotito__flex; border-color: powderblue;}
+
+.fotito__flex--8{ @extend .fotito__flex; border-color:lawngreen ;}

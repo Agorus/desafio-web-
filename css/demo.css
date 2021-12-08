@@ -1,0 +1,192 @@
+.caja {
+  color: royalblue; }
+
+.caja__titulo {
+  color: red;
+  margin: 10px; }
+
+.imput__color {
+  font-size: 10px;
+  color: purple;
+  border-color: purple; }
+
+.fotito {
+  display: flex; }
+
+.fotito__flex, .fotito__flex--2, .fotito__flex--3, .fotito__flex--4, .fotito__flex--5, .fotito__flex--6, .fotito__flex--7, .fotito__flex--8 {
+  padding: auto;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-color: red;
+  border-style: outset;
+  border-radius: 10px;
+  background-color: lightgray; }
+
+.fotito__flex--2 {
+  border-color: blue; }
+
+.fotito__flex--3 {
+  border-color: blueviolet; }
+
+.fotito__flex--4 {
+  border-color: cadetblue; }
+
+.fotito__flex--5 {
+  border-color: orange; }
+
+.fotito__flex--6 {
+  border-color: plum; }
+
+.fotito__flex--7 {
+  border-color: powderblue; }
+
+.fotito__flex--8 {
+  border-color: lawngreen; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../imagenes/0d1bb170e07d50d1cf5f1079d49f41af.jpg); }
+
+.contenedor {
+  width: 90%;
+  margin: auto; }
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header .logo {
+  color: #36096d;
+  font-size: 40px; }
+
+h2, h4 {
+  color: #fff;
+  font-family: 'roboto slab'; }
+
+h3 {
+  color: #36096d; }
+
+.cursiva {
+  font-style: italic; }
+
+.negrita {
+  font-weight: bold; }
+
+p {
+  font-family: 'roboto slab';
+  color: #fff; }
+
+.imagenUno {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: row; }
+
+/* ---- ----- ----- Anime Principal ----- ----- ----- */
+.principal {
+  font-size: 16px;
+  min-height: 200px;
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../imagenes/studio-ghibli.jpg);
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: end; }
+
+.principal .contenedor {
+  margin: 0 auto;
+  margin-bottom: 100px; }
+
+.principal .titulo {
+  font-weight: 600px;
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 20px; }
+
+.principal .descripcion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  max-width: 50%;
+  margin-top: 20px;
+  margin-bottom: 50px; }
+
+.principal .boton {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px; }
+
+.principal .boton:hover {
+  background: #fff;
+  color: #000; }
+
+.articleFlex {
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: end; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    color: black; } }
+
+@media only screen and (max-width: 480px) {
+  h3 {
+    color: blue; } }
+
+.imagen {
+  border: solid 5px blue;
+  height: 20vh;
+  width: 200px;
+  margin: left 60px;
+  margin-bottom: 20px; }
+
+.bg-color {
+  color: #fff; }
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.50rem;
+  font-family: 'roboto slab'; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  color: #fff; }
+
+.carrousel_1 {
+  border: 10px solid blue;
+  margin: 30px; }
+
+.carrousel_2 {
+  border: 10px solid blue;
+  margin: 30px; }
+
+.carrousel_3 {
+  border: 10px solid blue;
+  margin: 30px; }
+
+.margenes {
+  margin: auto; }
+
+.color-link {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none; }
