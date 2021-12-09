@@ -66,12 +66,17 @@ header .logo {
   color: #36096d;
   font-size: 40px; }
 
-h2, h4 {
+h2 {
   color: #fff;
-  font-family: 'roboto slab'; }
+  font-family: 'roboto slab';
+  align-items: center; }
 
 h3 {
   color: #36096d; }
+
+h4 {
+  color: #fff;
+  font-family: 'roboto slab'; }
 
 .cursiva {
   font-style: italic; }
@@ -161,10 +166,11 @@ p {
 .bg-color {
   color: #fff; }
 
-.navbar-brand {
+.color-brand {
   color: #fff;
   font-size: 1.50rem;
-  font-family: 'roboto slab'; }
+  font-family: 'roboto slab';
+  text-decoration: none; }
 
 footer {
   width: 100%;
@@ -190,3 +196,7 @@ footer {
   color: #fff;
   margin-left: 20px;
   text-decoration: none; }
+
+.centrar {
+  display: flex;
+  justify-content: center; }
