@@ -271,10 +271,10 @@ footer {
   color: #fff; }
 
 .container-fluid .navbar-toggler {
-  border-color: #fff; }
+  border-color: #919191; }
 
-.navbar-toggler-icon {
-  background-color: #fff; }
+.container-fluid .navbar-collapse {
+  justify-content: right; }
 
 .embed-responsive {
   display: flex;
