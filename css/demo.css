@@ -119,17 +119,11 @@ p {
   margin-top: 20px;
   margin-bottom: 50px; }
 
-.principal .boton {
-  text-decoration: none;
-  background: rgba(0, 0, 0, 0.5);
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  color: #fff;
-  margin-right: 20px;
-  font-size: 18px; }
+.principal .btn-primary {
+  border: #000;
+  background: rgba(0, 0, 0, 0.5); }
 
-.principal .boton:hover {
+.principal .btn-primary:hover {
   background: #fff;
   color: #000; }
 
@@ -145,11 +139,21 @@ p {
 
 @media only screen and (max-width: 768px) {
   h3 {
-    color: black; } }
+    color: black; }
+  .embed-responsive .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; } }
 
 @media only screen and (max-width: 480px) {
   h3 {
-    color: blue; } }
+    color: #fff; }
+  .principal .btn-primary {
+    margin: 5px; }
+  .embed-responsive .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; } }
 
 .imagen {
   border: solid 5px blue;
@@ -259,3 +263,19 @@ footer {
   border: none;
   width: 200px;
   cursor: pointer; }
+
+.nav-item .nav-link {
+  color: #fff; }
+
+.navbar-brand {
+  color: #fff; }
+
+.container-fluid .navbar-toggler {
+  border-color: #fff; }
+
+.navbar-toggler-icon {
+  background-color: #fff; }
+
+.embed-responsive {
+  display: flex;
+  flex-direction: row; }
